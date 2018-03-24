@@ -157,7 +157,7 @@ header {
 }
 
 
-@media (max-width: 800px)
+@media (-webkit-min-device-pixel-ratio:0)
 {
     body {
 	/* To test if the media query works  */ 
