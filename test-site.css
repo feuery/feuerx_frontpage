@@ -1,0 +1,49 @@
+html, body {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    /* color: #FFFFFF */
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background-color: #bbbbbb99;
+    border-radius: 5% 1%;
+    padding-top: 2%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    max-width: 10%;
+    min-width: 10%;
+
+    background-color: #bbbbbb99;
+}
+
+
+header {
+    font-size: 3em;
+
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+		     
+}
